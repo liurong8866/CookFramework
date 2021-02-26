@@ -1,0 +1,25 @@
+# 代码生成
+gen: 
+  # 作者
+  author: cook studio
+  # 默认生成包路径 system 需改成自己的模块名称 如 system monitor tool
+  packageName: com.cook
+  # 自动去除表前缀，默认是false
+  autoRemovePre: false
+  # 表前缀（生成类名不会包含表前缀，多个用逗号分隔）
+  tablePrefix: sys_
+  #Controller 项目空间路径，不含包名
+  controllerPath: cook-service/cook-controller/src/main/java
+  #Domain 项目空间路径，不含包名
+  domainPath: cook-service/cook-domain/src/main/java
+  #Service 项目空间路径，包括service、service.impl 不含包名
+  servicePath: cook-service/cook-service/src/main/java
+  #Mybits Mapper 项目空间路径 不含包名
+  mapperPath: cook-service/cook-service/src/main/java
+  #Mybits Xml 项目空间路径，即文件存方路径
+  mapperXmlPath: cook-service/cook-service/src/main/resources/mapper
+  #Vue 文件生成路径
+  vuePath: cook-web-admin/src
+
+
+
